@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102b2b">
+  <meta name="description" content="العالمية كلين لصيانة وتنظيف أفران الغاز في الدمام والظهران والخبر والقطيف. عرض الصيانة 99 ريال بدون قطع الغيار.">
+  <title>العالمية كلين | صيانة وتنظيف أفران الغاز</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink:#132f2e; --ink2:#204442; --gold:#d6a64d; --gold2:#f0d49a;
+      --cream:#fbf8f1; --muted:#687775; --white:#fff; --line:#e9e3d7;
+      --shadow:0 18px 55px rgba(18,44,42,.11);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:"IBM Plex Sans Arabic",Tahoma,sans-serif;color:var(--ink);background:var(--cream);line-height:1.8}
+    a{color:inherit;text-decoration:none}
+    .container{width:min(1160px,calc(100% - 40px));margin:auto}
+    .topbar{background:var(--ink);color:#fff;font-size:14px}
+    .topbar .container{min-height:42px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .top-contact{color:var(--gold2);font-weight:700}
+    header{background:rgba(251,248,241,.94);backdrop-filter:blur(12px);position:sticky;top:0;z-index:10;border-bottom:1px solid rgba(19,47,46,.08)}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px;font-size:21px;font-weight:800}
+    .brand-mark{width:42px;height:42px;border-radius:14px;background:var(--ink);color:var(--gold2);display:grid;place-items:center;font-size:23px}
+    .nav-links{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:600;color:#4d6260}
+    .nav-links a:hover{color:#b1812f}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 23px;border-radius:12px;font-weight:700;transition:.2s;cursor:pointer;border:0;font:inherit}
+    .btn-primary{background:var(--gold);color:#182e2b;box-shadow:0 8px 20px rgba(214,166,77,.22)}
+    .btn-primary:hover{transform:translateY(-2px);background:#e2b75f}
+    .btn-outline{border:1px solid rgba(255,255,255,.35);color:#fff}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#102b2b 0%,#1b4140 58%,#254d49 100%);color:#fff;padding:86px 0 74px}
+    .hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(240,212,154,.17);border-radius:50%;pointer-events:none}
+    .hero:before{width:520px;height:520px;left:-130px;top:-220px}
+    .hero:after{width:360px;height:360px;left:-48px;top:-140px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:55px;align-items:center;position:relative;z-index:1}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--gold2);font-weight:700;font-size:14px;margin-bottom:18px}
+    .eyebrow:before{content:"";width:26px;height:1px;background:var(--gold)}
+    h1{font-size:clamp(36px,5vw,60px);line-height:1.25;margin:0 0 18px;font-weight:800;letter-spacing:-1.2px}
+    h1 span{color:var(--gold2);display:block}
+    .hero-copy{font-size:18px;color:#d7e2dd;max-width:580px;margin:0 0 28px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .trust-row{display:flex;gap:24px;flex-wrap:wrap;margin-top:30px;color:#dce8e3;font-size:14px}
+    .trust-row span:before{content:"✓";color:var(--gold2);font-weight:800;margin-left:8px}
+    .visual{min-height:390px;display:grid;place-items:center;position:relative}
+    .visual-glow{position:absolute;width:340px;height:340px;border-radius:50%;background:rgba(214,166,77,.14);filter:blur(4px)}
+    .oven-card{position:relative;width:min(310px,85%);height:350px;border:8px solid #d5d6d0;border-radius:25px;background:linear-gradient(135deg,#f7f7f3,#aeb7b0);box-shadow:0 30px 60px rgba(0,0,0,.28);padding:22px 18px}
+    .oven-top{height:35px;border-radius:8px;background:#263432;display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:16px}
+    .knob{width:14px;height:14px;border-radius:50%;background:#c7c9c2;border:2px solid #858d87}
+    .oven-window{height:205px;border:10px solid #252e2d;border-radius:13px;background:linear-gradient(145deg,rgba(255,255,255,.15),transparent),linear-gradient(135deg,#252c2a,#080e0e 65%,#43504b);box-shadow:inset 0 0 25px #000;position:relative;overflow:hidden}
+    .oven-window:before{content:"";position:absolute;inset:25px 30px;border:2px solid rgba(214,166,77,.65);border-radius:8px}
+    .oven-window:after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:95px;height:95px;border:5px solid rgba(214,166,77,.55);border-radius:50%;box-shadow:0 0 30px rgba(214,166,77,.25)}
+    .oven-handle{height:10px;width:150px;border-radius:8px;background:#424b47;margin:14px auto 0}
+    .offer-float{position:absolute;right:0;bottom:28px;background:var(--gold);color:#1b302d;padding:16px 23px;border-radius:16px;box-shadow:var(--shadow);transform:rotate(-4deg)}
+    .offer-float small{display:block;font-weight:700;font-size:13px}
+    .offer-float strong{font-size:37px;line-height:1.2}
+    .offer-float em{font-style:normal;font-size:14px;font-weight:700}
+    .locations{background:#fff;border-bottom:1px solid var(--line)}
+    .locations .container{display:flex;justify-content:center;gap:35px;flex-wrap:wrap;padding:18px 0;color:#536764;font-size:14px;font-weight:600}
+    .locations span:before{content:"⌖";color:#b1812f;margin-left:8px;font-size:18px}
+    section{padding:84px 0}
+    .section-head{text-align:center;max-width:680px;margin:0 auto 42px}
+    .kicker{color:#b1812f;font-size:14px;font-weight:800}
+    h2{font-size:clamp(27px,3vw,39px);line-height:1.35;margin:8px 0 12px;font-weight:800}
+    .section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .service{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 27px;box-shadow:0 8px 25px rgba(18,44,42,.035);transition:.25s}
+    .service:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+    .service-icon{width:54px;height:54px;border-radius:16px;background:#f6efdf;color:#9d7028;display:grid;place-items:center;font-size:25px;margin-bottom:19px}
+    .service h3{font-size:19px;margin:0 0 8px}
+    .service p{color:var(--muted);font-size:14px;margin:0}
+    .why{background:#eef2ed}
+    .why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
+    .why-panel{background:var(--ink);color:#fff;border-radius:24px;padding:36px;position:relative;overflow:hidden}
+    .why-panel:after{content:"✦";position:absolute;left:25px;bottom:-30px;font-size:150px;color:rgba(240,212,154,.08)}
+    .why-panel .kicker{color:var(--gold2)}
+    .why-panel h2{max-width:390px}
+    .why-panel p{color:#c9d7d1;margin-bottom:0}
+    .benefits{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .benefit{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid #e1e8e0;border-radius:14px;padding:17px}
+    .check{flex:0 0 30px;width:30px;height:30px;border-radius:50%;background:#f6efdf;color:#9d7028;display:grid;place-items:center;font-weight:800}
+    .benefit strong{font-size:15px}
+    .price-section{padding:70px 0}
+    .price-card{max-width:850px;margin:auto;background:linear-gradient(115deg,#173735,#244b46);color:#fff;border-radius:24px;padding:38px 48px;display:flex;align-items:center;justify-content:space-between;gap:25px;box-shadow:var(--shadow)}
+    .price-card h2{margin:0 0 8px}
+    .price-card p{color:#d4dfd9;margin:0}
+    .price{color:var(--gold2);font-size:56px;font-weight:800;line-height:1.2;white-space:nowrap}
+    .price small{font-size:18px}
+    .price-note{font-size:13px;color:#c8d4ce;margin-top:5px;text-align:center}
+    .reviews{background:#fff}
+    .review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .review{border:1px solid var(--line);border-radius:17px;padding:25px;background:#fff}
+    .stars{color:#c9953c;letter-spacing:3px;font-size:18px}
+    .review p{font-size:14px;color:#526460;min-height:92px}
+    .review strong{font-size:14px}
+    .review small{display:block;color:#899590}
+    .cta{background:#f1eadb;text-align:center;padding:76px 20px}
+    .cta h2{margin-top:0}
+    .cta p{color:#64736e;margin:0 0 25px}
+    footer{background:#102b2b;color:#d6e0da;padding:28px 0;font-size:13px}
+    footer .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    .call-float,.whatsapp-float{position:fixed;left:20px;z-index:20;width:68px;height:68px;border-radius:50%;display:grid;place-items:center;color:white;box-shadow:0 10px 28px rgba(20,35,65,.22);transition:transform .2s,box-shadow .2s}
+    .call-float{bottom:102px;background:#263963;font-size:27px}
+    .whatsapp-float{bottom:20px;background:#12b96a;font-size:29px}
+    .call-float:hover,.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 13px 32px rgba(20,35,65,.28)}
+    .call-float svg{width:29px;height:29px;fill:currentColor}
+    .whatsapp-float svg{width:32px;height:32px;fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+    @media(max-width:850px){
+      .hero-grid,.why-grid{grid-template-columns:1fr;gap:25px}
+      .hero{padding:60px 0 45px}.visual{min-height:330px}
+      .oven-card{height:310px;width:270px}.oven-window{height:175px}
+      .services,.review-grid{grid-template-columns:1fr 1fr}
+      .why-grid{gap:30px}
+      .nav-links{display:none}
+    }
+    @media(max-width:560px){
+      .container{width:min(100% - 30px,1160px)}
+      .topbar .container{justify-content:center}.topbar .top-note{display:none}
+      .nav{height:66px}.brand{font-size:18px}.nav .btn{padding:10px 13px;font-size:13px}
+      .hero{padding:48px 0 35px}.hero-copy{font-size:16px}
+      .hero-actions .btn{width:100%}
+      .trust-row{gap:10px;display:grid}
+      .visual{min-height:300px}
+      .offer-float{right:4px;bottom:12px;padding:11px 17px}
+      .offer-float strong{font-size:30px}
+      section{padding:60px 0}
+      .services,.review-grid,.benefits{grid-template-columns:1fr}
+      .service{padding:24px}
+      .price-card{padding:28px 22px;flex-direction:column;text-align:center}
+      .price{font-size:48px}
+      .review p{min-height:0}
+      footer .container{justify-content:center;text-align:center}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <span class="top-note">خدمة احترافية في المنطقة الشرقية</span>
+      <a class="top-contact" href="tel:0530559446">☎ اتصل الآن: 0530559446</a>
+    </div>
+  </div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home"><span class="brand-mark">✦</span> العالمية كلين</a>
+      <nav class="nav-links" aria-label="التنقل الرئيسي">
+        <a href="#services">خدماتنا</a><a href="#why">لماذا نحن؟</a><a href="#reviews">آراء العملاء</a>
+      </nav>
+      <a class="btn btn-primary" href="tel:0530559446">احجز الآن <span>☎</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">العالمية كلين · خدمة موثوقة</div>
+          <h1>صيانة وتنظيف <span>أفران الغاز</span></h1>
+          <p class="hero-copy">نرجّع لفرنك كفاءته ونظافته بخدمة دقيقة وسريعة من فنيين متخصصين، مع توفير قطع الغيار الأصلية عند الحاجة.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:0530559446">اتصل واحجز الآن ☎</a>
+            <a class="btn btn-outline" href="https://wa.me/966530559446" target="_blank" rel="noopener">تواصل عبر واتساب ↗</a>
+          </div>
+          <div class="trust-row"><span>معاينة وخدمة موثوقة</span><span>مواعيد مرنة</span></div>
+        </div>
+        <div class="visual" aria-label="رسم توضيحي لفرن غاز">
+          <div class="visual-glow"></div>
+          <div class="oven-card">
+            <div class="oven-top"><i class="knob"></i><i class="knob"></i><i class="knob"></i><i class="knob"></i></div>
+            <div class="oven-window"></div><div class="oven-handle"></div>
+          </div>
+          <div class="offer-float"><small>عرض الصيانة</small><strong>99</strong> <em>ريال فقط</em></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="locations"><div class="container"><span>الدمام</span><span>الظهران</span><span>الخبر</span><span>القطيف</span></div></div>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head"><div class="kicker">✦ خدماتنا</div><h2>كل ما يحتاجه فرنك في مكان واحد</h2><p>حلول عملية تخلّي فرن الغاز أنظف، أكثر أمانًا، وأفضل أداءً.</p></div>
+        <div class="services">
+          <article class="service"><div class="service-icon">⚙</div><h3>صيانة أفران الغاز</h3><p>فحص الأعطال وتحسين أداء الفرن بأيدي فنيين مختصين.</p></article>
+          <article class="service"><div class="service-icon">✧</div><h3>تنظيف عميق</h3><p>إزالة الدهون والترسبات من الداخل والخارج بعناية.</p></article>
+          <article class="service"><div class="service-icon">✓</div><h3>قطع غيار أصلية</h3><p>نوفر قطع الغيار الأصلية عند الحاجة — والسعر لا يشملها.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="container why-grid">
+        <div class="why-panel"><div class="kicker">✦ لماذا العالمية كلين؟</div><h2>خدمة مرتبة من أول اتصال حتى انتهاء العمل</h2><p>نهتم بالتفاصيل الصغيرة التي تصنع فرقًا كبيرًا في نظافة الفرن وسلامة استخدامه.</p></div>
+        <div class="benefits">
+          <div class="benefit"><span class="check">✓</span><strong>فنيون لديهم خبرة</strong></div>
+          <div class="benefit"><span class="check">✓</span><strong>التزام بالمواعيد</strong></div>
+          <div class="benefit"><span class="check">✓</span><strong>تنظيف باحتراف</strong></div>
+          <div class="benefit"><span class="check">✓</span><strong>قطع أصلية متوفرة</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price-section">
+      <div class="container">
+        <div class="price-card">
+          <div><div class="kicker">عرض الصيانة الخاص</div><h2>احجز خدمتك الآن</h2><p>خدمة صيانة وتنظيف أفران الغاز بسعر واضح.</p></div>
+          <div><div class="price">99 <small>ريال</small></div><div class="price-note">* بدون قطع الغيار</div></div>
+          <a class="btn btn-primary" href="tel:0530559446">احجز الآن ☎</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="section-head"><div class="kicker">✦ آراء عملائنا</div><h2>تجربة نظيفة… ورضا يستحق الثقة</h2><p>نعتز بكل تقييم ونحرص أن تكون كل زيارة أفضل من السابقة.</p></div>
+        <div class="review-grid">
+          <article class="review"><div class="stars">★★★★★</div><p>الخدمة ممتازة جدًا، الفني وصل في الموعد ونظف الفرن بشكل واضح. رجع يشتغل كأنه جديد.</p><strong>محمد</strong><small>الخبر</small></article>
+          <article class="review"><div class="stars">★★★★★</div><p>تعامل راقٍ وسرعة في الحجز. أكثر شيء عجبني أنهم وضحوا كل شيء قبل بدء الصيانة.</p><strong>سارة</strong><small>الدمام</small></article>
+          <article class="review"><div class="stars">★★★★★</div><p>تنظيف مرتب ودقيق والنتيجة ممتازة. أنصح بالعالمية كلين لأي شخص يحتاج صيانة فرن.</p><strong>عبدالله</strong><small>الظهران</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container"><div class="kicker">العالمية كلين</div><h2>فرنك يحتاج عناية؟ خله علينا</h2><p>اتصل الآن واحجز عرض الصيانة بـ 99 ريال — بدون قطع الغيار.</p><a class="btn btn-primary" href="tel:0530559446">تحدث معنا الآن: 0530559446 ☎</a></div>
+    </section>
+  </main>
+
+  <footer><div class="container"><span>© 2026 العالمية كلين — صيانة وتنظيف أفران الغاز</span><span>خدمة المنطقة الشرقية</span></div></footer>
+  <a class="call-float" href="tel:0530559446" aria-label="اتصل الآن" title="اتصل الآن">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.32.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.26.2 2.46.57 3.58a1 1 0 0 1-.25 1.02L6.6 10.8z"/></svg>
+  </a>
+  <a class="whatsapp-float" href="https://wa.me/966530559446" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب" title="واتساب">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L3 20l1.2-4.9a8.2 8.2 0 1 1 16-3.4z"/><path d="M8.5 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4-.1.6.4.7 1 1.4 1.7 1.8.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.5-.5.4-1.1.6-1.8.5-1-.2-2.2-.8-3.4-1.9-1.2-1.1-2-2.4-2.2-3.3-.2-.8.1-1.5.7-2.3z"/></svg>
+  </a>
+</body>
+</html>
